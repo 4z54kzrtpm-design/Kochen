@@ -1,0 +1,4175 @@
+{
+  "version": "1.0.0",
+  "language": "ko",
+  "servingsDefault": 4,
+  "ingredients": [
+    {
+      "id": "chicken",
+      "name": "닭고기",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Hähnchen",
+        "chicken"
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "돼지고기",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Schweinefleisch",
+        "pork"
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "소고기",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Rindfleisch",
+        "beef"
+      ]
+    },
+    {
+      "id": "mince_beef",
+      "name": "다진 소고기",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Rinderhack",
+        "ground beef"
+      ]
+    },
+    {
+      "id": "tofu",
+      "name": "두부",
+      "category": "Protein",
+      "unit": "g",
+      "aliases": [
+        "Tofu"
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "달걀",
+      "category": "Protein",
+      "unit": "개",
+      "aliases": [
+        "Ei",
+        "Eier",
+        "egg"
+      ]
+    },
+    {
+      "id": "potato",
+      "name": "감자",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Kartoffel",
+        "Kartoffeln",
+        "potato"
+      ]
+    },
+    {
+      "id": "sweet_potato",
+      "name": "고구마",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Süßkartoffel",
+        "sweet potato"
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "양파",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Zwiebel",
+        "onion"
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "당근",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Karotte",
+        "Möhre",
+        "carrot"
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "마늘",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Knoblauch",
+        "garlic"
+      ]
+    },
+    {
+      "id": "cabbage",
+      "name": "양배추",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Kohl",
+        "Weißkohl",
+        "cabbage"
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name": "주키니",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Zucchini"
+      ]
+    },
+    {
+      "id": "bell_pepper",
+      "name": "파프리카",
+      "category": "Vegetable",
+      "unit": "개",
+      "aliases": [
+        "Paprika",
+        "bell pepper"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "name": "버섯",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Champignons",
+        "Pilze",
+        "mushroom"
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "시금치",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Spinat",
+        "spinach"
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "토마토",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Tomate",
+        "tomato"
+      ]
+    },
+    {
+      "id": "cherry_tomato",
+      "name": "방울토마토",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Cherrytomaten"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name": "오이",
+      "category": "Vegetable",
+      "unit": "개",
+      "aliases": [
+        "Gurke",
+        "cucumber"
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name": "브로콜리",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Brokkoli",
+        "broccoli"
+      ]
+    },
+    {
+      "id": "spring_onion",
+      "name": "대파",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Frühlingszwiebel",
+        "Lauchzwiebel"
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "생강",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Ingwer",
+        "ginger"
+      ]
+    },
+    {
+      "id": "lettuce",
+      "name": "상추",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Salat",
+        "lettuce"
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "레몬",
+      "category": "Fruit",
+      "unit": "개",
+      "aliases": [
+        "Zitrone",
+        "lemon"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "사과",
+      "category": "Fruit",
+      "unit": "개",
+      "aliases": [
+        "Apfel",
+        "apple"
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "쌀",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Reis",
+        "rice"
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "파스타",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Nudeln",
+        "Pasta"
+      ]
+    },
+    {
+      "id": "noodle",
+      "name": "면",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Nudeln",
+        "noodles"
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "밀가루",
+      "category": "Baking",
+      "unit": "g",
+      "aliases": [
+        "Mehl",
+        "flour"
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "식빵",
+      "category": "Grain",
+      "unit": "장",
+      "aliases": [
+        "Brot",
+        "Toastbrot"
+      ]
+    },
+    {
+      "id": "tortilla",
+      "name": "또띠아",
+      "category": "Grain",
+      "unit": "장",
+      "aliases": [
+        "Tortilla"
+      ]
+    },
+    {
+      "id": "oats",
+      "name": "오트밀",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Haferflocken",
+        "oats"
+      ]
+    },
+    {
+      "id": "lentil",
+      "name": "렌틸콩",
+      "category": "Legume",
+      "unit": "g",
+      "aliases": [
+        "Linsen",
+        "lentils"
+      ]
+    },
+    {
+      "id": "chickpea",
+      "name": "병아리콩",
+      "category": "Legume",
+      "unit": "g",
+      "aliases": [
+        "Kichererbsen",
+        "chickpeas"
+      ]
+    },
+    {
+      "id": "canned_tomato",
+      "name": "캔 토마토",
+      "category": "Pantry",
+      "unit": "g",
+      "aliases": [
+        "Tomaten aus der Dose"
+      ]
+    },
+    {
+      "id": "coconut_milk",
+      "name": "코코넛밀크",
+      "category": "Pantry",
+      "unit": "ml",
+      "aliases": [
+        "Kokosmilch"
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "우유",
+      "category": "Dairy",
+      "unit": "ml",
+      "aliases": [
+        "Milch",
+        "milk"
+      ]
+    },
+    {
+      "id": "cream",
+      "name": "생크림",
+      "category": "Dairy",
+      "unit": "ml",
+      "aliases": [
+        "Sahne",
+        "cream"
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "버터",
+      "category": "Dairy",
+      "unit": "g",
+      "aliases": [
+        "Butter"
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "치즈",
+      "category": "Dairy",
+      "unit": "g",
+      "aliases": [
+        "Käse",
+        "cheese"
+      ]
+    },
+    {
+      "id": "mozzarella",
+      "name": "모차렐라",
+      "category": "Dairy",
+      "unit": "g",
+      "aliases": [
+        "Mozzarella"
+      ]
+    },
+    {
+      "id": "yogurt",
+      "name": "플레인 요거트",
+      "category": "Dairy",
+      "unit": "g",
+      "aliases": [
+        "Naturjoghurt",
+        "yogurt"
+      ]
+    },
+    {
+      "id": "stock",
+      "name": "육수",
+      "category": "Pantry",
+      "unit": "ml",
+      "aliases": [
+        "Brühe",
+        "stock"
+      ]
+    },
+    {
+      "id": "soy_sauce",
+      "name": "간장",
+      "category": "Seasoning",
+      "unit": "ml",
+      "aliases": [
+        "Sojasauce",
+        "soy sauce"
+      ]
+    },
+    {
+      "id": "gochujang",
+      "name": "고추장",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Gochujang"
+      ]
+    },
+    {
+      "id": "doenjang",
+      "name": "된장",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Doenjang"
+      ]
+    },
+    {
+      "id": "curry_powder",
+      "name": "카레 가루",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Currypulver",
+        "curry powder"
+      ]
+    },
+    {
+      "id": "paprika_powder",
+      "name": "파프리카 가루",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Paprikapulver"
+      ]
+    },
+    {
+      "id": "olive_oil",
+      "name": "올리브유",
+      "category": "Seasoning",
+      "unit": "ml",
+      "aliases": [
+        "Olivenöl",
+        "olive oil"
+      ]
+    },
+    {
+      "id": "sesame_oil",
+      "name": "참기름",
+      "category": "Seasoning",
+      "unit": "ml",
+      "aliases": [
+        "Sesamöl",
+        "sesame oil"
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "꿀",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Honig",
+        "honey"
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "설탕",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Zucker",
+        "sugar"
+      ]
+    },
+    {
+      "id": "salt",
+      "name": "소금",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Salz",
+        "salt"
+      ]
+    },
+    {
+      "id": "pepper",
+      "name": "후추",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Pfeffer",
+        "pepper"
+      ]
+    },
+    {
+      "id": "vinegar",
+      "name": "식초",
+      "category": "Seasoning",
+      "unit": "ml",
+      "aliases": [
+        "Essig",
+        "vinegar"
+      ]
+    },
+    {
+      "id": "mustard",
+      "name": "머스터드",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Senf",
+        "mustard"
+      ]
+    },
+    {
+      "id": "soy_mince",
+      "name": "식물성 다짐육",
+      "category": "Protein",
+      "unit": "g",
+      "aliases": [
+        "Sojagranulat"
+      ]
+    },
+    {
+      "id": "salmon",
+      "name": "연어",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Lachs",
+        "salmon"
+      ]
+    },
+    {
+      "id": "white_fish",
+      "name": "흰살생선",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Seelachs",
+        "white fish"
+      ]
+    },
+    {
+      "id": "shrimp",
+      "name": "새우",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Garnelen",
+        "shrimp"
+      ]
+    },
+    {
+      "id": "corn",
+      "name": "옥수수",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Mais",
+        "corn"
+      ]
+    },
+    {
+      "id": "peas",
+      "name": "완두콩",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Erbsen",
+        "peas"
+      ]
+    },
+    {
+      "id": "basil",
+      "name": "바질",
+      "category": "Herb",
+      "unit": "g",
+      "aliases": [
+        "Basilikum",
+        "basil"
+      ]
+    },
+    {
+      "id": "parsley",
+      "name": "파슬리",
+      "category": "Herb",
+      "unit": "g",
+      "aliases": [
+        "Petersilie",
+        "parsley"
+      ]
+    },
+    {
+      "id": "kimchi",
+      "name": "김치",
+      "category": "Pantry",
+      "unit": "g",
+      "aliases": [
+        "Kimchi"
+      ]
+    },
+    {
+      "id": "bean_sprout",
+      "name": "콩나물",
+      "category": "Vegetable",
+      "unit": "g",
+      "aliases": [
+        "Sojasprossen",
+        "bean sprouts"
+      ]
+    },
+    {
+      "id": "fish_cake",
+      "name": "어묵",
+      "category": "Protein",
+      "unit": "g",
+      "aliases": [
+        "Fischkuchen",
+        "Eomuk"
+      ]
+    },
+    {
+      "id": "rice_cake",
+      "name": "떡",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Reiskuchen",
+        "Tteok"
+      ]
+    },
+    {
+      "id": "dumpling",
+      "name": "만두",
+      "category": "Frozen",
+      "unit": "g",
+      "aliases": [
+        "Mandu",
+        "Teigtaschen"
+      ]
+    },
+    {
+      "id": "potato_starch",
+      "name": "전분",
+      "category": "Baking",
+      "unit": "g",
+      "aliases": [
+        "Kartoffelstärke"
+      ]
+    },
+    {
+      "id": "bacon",
+      "name": "베이컨",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Speck",
+        "bacon"
+      ]
+    },
+    {
+      "id": "sausage",
+      "name": "소시지",
+      "category": "Meat",
+      "unit": "g",
+      "aliases": [
+        "Würstchen",
+        "sausage"
+      ]
+    },
+    {
+      "id": "quinoa",
+      "name": "퀴노아",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Quinoa"
+      ]
+    },
+    {
+      "id": "couscous",
+      "name": "쿠스쿠스",
+      "category": "Grain",
+      "unit": "g",
+      "aliases": [
+        "Couscous"
+      ]
+    },
+    {
+      "id": "pesto",
+      "name": "페스토",
+      "category": "Pantry",
+      "unit": "g",
+      "aliases": [
+        "Pesto"
+      ]
+    },
+    {
+      "id": "peanut_butter",
+      "name": "땅콩버터",
+      "category": "Pantry",
+      "unit": "g",
+      "aliases": [
+        "Erdnussbutter"
+      ]
+    },
+    {
+      "id": "sesame",
+      "name": "참깨",
+      "category": "Seasoning",
+      "unit": "g",
+      "aliases": [
+        "Sesam"
+      ]
+    },
+    {
+      "id": "seaweed",
+      "name": "김",
+      "category": "Pantry",
+      "unit": "장",
+      "aliases": [
+        "Nori",
+        "Seetang"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe_001",
+      "name": "간장 닭볶음",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "팬이나 냄비에 양념과 재료를 넣고 중불에서 볶는다.",
+        "물을 조금 넣고 뚜껑을 덮어 재료가 충분히 익을 때까지 끓인다.",
+        "간을 확인하고 따뜻하게 낸다."
+      ],
+      "tags": [
+        "가족식",
+        "한 냄비"
+      ],
+      "method": "braise",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_002",
+      "name": "매콤 닭볶음탕",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 20,
+      "cookMinutes": 35,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "gochujang",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "고추장, 간장, 마늘, 설탕을 섞어 양념을 만든다.",
+        "닭고기와 채소, 양념, 물을 냄비에 넣고 끓인다.",
+        "속까지 완전히 익었는지 확인하고 간을 맞춘다."
+      ],
+      "tags": [
+        "가족식",
+        "한 냄비"
+      ],
+      "method": "spicy_braise",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_003",
+      "name": "치킨 카레",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "curry_powder",
+          "quantity": 25,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "냄비에 기름을 두르고 단단한 채소와 고기를 볶는다.",
+        "물이나 육수를 넣고 재료가 익을 때까지 끓인다.",
+        "카레 가루를 넣어 잘 풀고 농도가 날 때까지 끓인다."
+      ],
+      "tags": [
+        "간편식",
+        "한 냄비"
+      ],
+      "method": "curry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_004",
+      "name": "치킨 크림스튜",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cream",
+          "quantity": 200,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "butter",
+          "quantity": 20,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "버터나 기름에 양파와 주재료를 볶는다.",
+        "육수와 나머지 재료를 넣고 약불에서 충분히 익힌다.",
+        "크림 등 마무리 재료를 넣고 간을 조절한다."
+      ],
+      "tags": [
+        "가족식",
+        "한 냄비"
+      ],
+      "method": "stew",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_005",
+      "name": "닭고기 토마토 파스타",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "파스타를 포장지 안내에 따라 삶는다.",
+        "팬에 기름을 두르고 양파와 마늘, 주재료를 익힌다.",
+        "토마토와 필요한 양념을 넣고 8~10분 끓인다.",
+        "파스타와 소스를 섞고 치즈나 허브를 곁들인다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "pasta_tomato",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_006",
+      "name": "닭고기 볶음밥",
+      "cuisine": "아시아식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥과 채소, 단백질 재료를 잘게 준비한다.",
+        "팬에 기름을 두르고 단백질과 채소를 볶는다.",
+        "밥을 넣고 덩어리를 풀며 볶는다.",
+        "간장 등 양념으로 간하고 달걀이나 파를 곁들인다."
+      ],
+      "tags": [
+        "간편식",
+        "남은 밥"
+      ],
+      "method": "fried_rice",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_007",
+      "name": "닭고기 또띠아",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "tortilla",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "lettuce",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "tomato",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "yogurt",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "주재료를 익히고 채소를 씻어 준비한다.",
+        "또띠아를 살짝 데운다.",
+        "소스와 재료를 올려 단단히 말아 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "wrap",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_008",
+      "name": "레몬 허브 치킨",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "parsley",
+          "quantity": 5,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "오븐을 200°C로 예열한다.",
+        "재료에 기름, 소금, 후추와 지정된 양념을 바른다.",
+        "오븐에서 재료의 크기에 맞게 익힌다. 고기·생선은 속까지 익었는지 확인한다.",
+        "레몬이나 허브를 곁들여 낸다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "roast",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_009",
+      "name": "닭고기 버섯 크림 파스타",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mushroom",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cream",
+          "quantity": 200,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "파스타를 삶고 면수를 조금 남긴다.",
+        "팬에 마늘과 주재료를 익힌다.",
+        "크림과 치즈를 넣고 약불에서 섞는다.",
+        "파스타를 넣어 농도를 맞추고 바로 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "creamy_pasta",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_010",
+      "name": "닭고기 채소 수프",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "chicken",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "cabbage",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "채소를 비슷한 크기로 썬다.",
+        "냄비에 양파를 볶고 나머지 재료를 넣는다.",
+        "육수를 부어 재료가 부드러워질 때까지 끓인다.",
+        "간을 맞추고 원하는 경우 일부를 으깨 농도를 조절한다."
+      ],
+      "tags": [
+        "가성비",
+        "한 냄비"
+      ],
+      "method": "soup",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_011",
+      "name": "제육볶음",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pork",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cabbage",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "gochujang",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 비슷한 크기로 썬다.",
+        "팬을 충분히 달구고 고기나 두부 등 단백질을 먼저 익힌다.",
+        "단단한 채소부터 넣어 센 불에서 볶는다.",
+        "양념을 넣고 재료가 익을 때까지 볶는다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "stir_fry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_012",
+      "name": "돼지고기 간장 덮밥",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pork",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥을 짓거나 준비한다.",
+        "주재료와 채소를 익히고 양념한다.",
+        "밥 위에 재료를 보기 좋게 올린다.",
+        "필요하면 참기름, 파, 깨 등으로 마무리한다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "rice_bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_013",
+      "name": "돼지고기 김치볶음",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pork",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "kimchi",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 먹기 좋은 크기로 썬다.",
+        "팬에 고기를 충분히 익힌다.",
+        "김치와 양파를 넣어 볶고 필요하면 설탕으로 신맛을 조절한다.",
+        "참기름을 조금 넣어 마무리한다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "kimchi_fry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_014",
+      "name": "돼지고기 양배추 볶음",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pork",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cabbage",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 비슷한 크기로 썬다.",
+        "팬을 충분히 달구고 고기나 두부 등 단백질을 먼저 익힌다.",
+        "단단한 채소부터 넣어 센 불에서 볶는다.",
+        "양념을 넣고 재료가 익을 때까지 볶는다."
+      ],
+      "tags": [
+        "가성비",
+        "간편식"
+      ],
+      "method": "stir_fry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_015",
+      "name": "돼지고기 토마토 스튜",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "pork",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "버터나 기름에 양파와 주재료를 볶는다.",
+        "육수와 나머지 재료를 넣고 약불에서 충분히 익힌다.",
+        "크림 등 마무리 재료를 넣고 간을 조절한다."
+      ],
+      "tags": [
+        "가족식",
+        "한 냄비"
+      ],
+      "method": "stew",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_016",
+      "name": "돼지고기 볶음우동",
+      "cuisine": "아시아식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pork",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "noodle",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cabbage",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "면을 포장지 안내에 따라 삶거나 불린다.",
+        "팬에 주재료와 채소를 볶는다.",
+        "면과 간장 등 양념을 넣는다.",
+        "센 불에서 빠르게 섞어 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "noodle_stir",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_017",
+      "name": "미트볼 토마토 파스타",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "mince_beef",
+          "quantity": 450,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "다진 고기를 양념해 작은 공 모양으로 만든다.",
+        "팬에서 미트볼 겉면을 굽고 충분히 익힌다.",
+        "토마토와 양파, 마늘을 넣어 소스를 끓인다.",
+        "삶은 파스타와 함께 낸다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "meatball_pasta",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_018",
+      "name": "소고기 감자조림",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "beef",
+          "quantity": 450,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "팬이나 냄비에 양념과 재료를 넣고 중불에서 볶는다.",
+        "물을 조금 넣고 뚜껑을 덮어 재료가 충분히 익을 때까지 끓인다.",
+        "간을 확인하고 따뜻하게 낸다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "braise",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_019",
+      "name": "소고기 채소 볶음",
+      "cuisine": "아시아식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "beef",
+          "quantity": 450,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "bell_pepper",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 비슷한 크기로 썬다.",
+        "팬을 충분히 달구고 고기나 두부 등 단백질을 먼저 익힌다.",
+        "단단한 채소부터 넣어 센 불에서 볶는다.",
+        "양념을 넣고 재료가 익을 때까지 볶는다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "stir_fry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_020",
+      "name": "소고기 토마토 라구",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "mince_beef",
+          "quantity": 450,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "양파와 당근을 잘게 썬다.",
+        "다진 고기를 팬에서 갈색이 나도록 볶는다.",
+        "토마토와 채소를 넣고 약불에서 끓인다.",
+        "삶은 파스타나 밥과 함께 낸다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "ragu",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_021",
+      "name": "햄버거풍 미트 패티",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "mince_beef",
+          "quantity": 450,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "bread",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mustard",
+          "quantity": 15,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 섞어 패티 모양으로 만든다.",
+        "팬에 기름을 조금 두르고 중불에서 앞뒤로 굽는다.",
+        "중심까지 충분히 익었는지 확인한다.",
+        "빵이나 채소와 함께 낸다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "patty",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_022",
+      "name": "소고기 카레",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "beef",
+          "quantity": 450,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "curry_powder",
+          "quantity": 25,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "냄비에 기름을 두르고 단단한 채소와 고기를 볶는다.",
+        "물이나 육수를 넣고 재료가 익을 때까지 끓인다.",
+        "카레 가루를 넣어 잘 풀고 농도가 날 때까지 끓인다."
+      ],
+      "tags": [
+        "한 냄비"
+      ],
+      "method": "curry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_023",
+      "name": "두부 간장조림",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "tofu",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "두부를 먹기 좋은 크기로 썰어 물기를 뺀다.",
+        "팬에 두부를 노릇하게 굽는다.",
+        "간장, 마늘, 물과 채소를 넣는다.",
+        "약불에서 양념이 배도록 졸인다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "tofu_braise",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_024",
+      "name": "두부 채소 볶음",
+      "cuisine": "아시아식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "tofu",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "broccoli",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "bell_pepper",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 비슷한 크기로 썬다.",
+        "팬을 충분히 달구고 고기나 두부 등 단백질을 먼저 익힌다.",
+        "단단한 채소부터 넣어 센 불에서 볶는다.",
+        "양념을 넣고 재료가 익을 때까지 볶는다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "stir_fry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_025",
+      "name": "두부 김치 덮밥",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "tofu",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "kimchi",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥을 짓거나 준비한다.",
+        "주재료와 채소를 익히고 양념한다.",
+        "밥 위에 재료를 보기 좋게 올린다.",
+        "필요하면 참기름, 파, 깨 등으로 마무리한다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "rice_bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_026",
+      "name": "렌틸 토마토 수프",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "lentil",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "양파와 당근을 잘게 썬다.",
+        "냄비에 채소를 볶고 렌틸콩과 토마토를 넣는다.",
+        "육수를 넣고 렌틸콩이 부드러워질 때까지 끓인다.",
+        "소금과 후추로 간을 맞춘다."
+      ],
+      "tags": [
+        "가성비",
+        "한 냄비"
+      ],
+      "method": "lentil_soup",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_027",
+      "name": "병아리콩 코코넛 카레",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "chickpea",
+          "quantity": 240,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "coconut_milk",
+          "quantity": 200,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "curry_powder",
+          "quantity": 25,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "tomato",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 한입 크기로 썬다.",
+        "냄비에 기름을 두르고 단단한 채소와 고기를 볶는다.",
+        "물이나 육수를 넣고 재료가 익을 때까지 끓인다.",
+        "카레 가루를 넣어 잘 풀고 농도가 날 때까지 끓인다."
+      ],
+      "tags": [
+        "가성비",
+        "채식"
+      ],
+      "method": "curry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_028",
+      "name": "채소 오믈렛",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "spinach",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mushroom",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "butter",
+          "quantity": 20,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "채소를 잘게 썰어 준비한다.",
+        "달걀을 풀고 소금과 후추를 넣는다.",
+        "팬에 버터를 녹여 채소를 볶은 뒤 달걀을 붓는다.",
+        "약불에서 익히고 치즈를 넣어 접어 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "omelet",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_029",
+      "name": "시금치 달걀 덮밥",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 8,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "spinach",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥을 짓거나 준비한다.",
+        "주재료와 채소를 익히고 양념한다.",
+        "밥 위에 재료를 보기 좋게 올린다.",
+        "필요하면 참기름, 파, 깨 등으로 마무리한다."
+      ],
+      "tags": [
+        "간편식",
+        "가성비"
+      ],
+      "method": "rice_bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_030",
+      "name": "감자전",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "flour",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "salt",
+          "quantity": 4,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 잘게 썰거나 갈아 준비한다.",
+        "달걀과 밀가루 등 반죽 재료를 섞는다.",
+        "달군 팬에 기름을 두르고 반죽을 얇게 펼친다.",
+        "양면이 노릇하고 속까지 익도록 굽는다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "pancake",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_031",
+      "name": "감자 수프",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cream",
+          "quantity": 200,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "butter",
+          "quantity": 20,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "채소를 비슷한 크기로 썬다.",
+        "냄비에 양파를 볶고 나머지 재료를 넣는다.",
+        "육수를 부어 재료가 부드러워질 때까지 끓인다.",
+        "간을 맞추고 원하는 경우 일부를 으깨 농도를 조절한다."
+      ],
+      "tags": [
+        "가성비",
+        "한 냄비"
+      ],
+      "method": "soup",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_032",
+      "name": "고구마 병아리콩 샐러드",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "sweet_potato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "chickpea",
+          "quantity": 240,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lettuce",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "yogurt",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 씻고 먹기 좋은 크기로 자른다.",
+        "콩이나 고구마 등 익혀야 하는 재료는 충분히 익힌다.",
+        "요거트, 레몬, 올리브유 등으로 드레싱을 만든다.",
+        "먹기 직전에 섞어 낸다."
+      ],
+      "tags": [
+        "채식"
+      ],
+      "method": "salad",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_033",
+      "name": "토마토 모차렐라 파스타",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mozzarella",
+          "quantity": 125,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "basil",
+          "quantity": 5,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "파스타를 포장지 안내에 따라 삶는다.",
+        "팬에 기름을 두르고 양파와 마늘, 주재료를 익힌다.",
+        "토마토와 필요한 양념을 넣고 8~10분 끓인다.",
+        "파스타와 소스를 섞고 치즈나 허브를 곁들인다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "pasta_tomato",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_034",
+      "name": "페스토 채소 파스타",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pesto",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "zucchini",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cherry_tomato",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "파스타를 삶는다.",
+        "팬에서 주키니와 토마토를 짧게 볶는다.",
+        "불을 낮추고 페스토와 파스타를 넣어 섞는다.",
+        "치즈를 뿌려 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "pesto_pasta",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_035",
+      "name": "버섯 크림 리조또",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mushroom",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cream",
+          "quantity": 200,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "butter",
+          "quantity": 20,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "양파와 버섯을 잘게 썰어 버터에 볶는다.",
+        "쌀을 넣어 짧게 볶는다.",
+        "따뜻한 육수를 조금씩 부으며 저어 쌀을 익힌다.",
+        "크림이나 치즈를 넣고 농도를 맞춘다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "risotto",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_036",
+      "name": "토마토 달걀 볶음",
+      "cuisine": "아시아식",
+      "servings": 4,
+      "prepMinutes": 8,
+      "cookMinutes": 10,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "tomato",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "달걀을 풀어 둔다.",
+        "팬에서 토마토를 볶아 즙이 나오게 한다.",
+        "달걀을 넣고 부드럽게 저으며 익힌다.",
+        "파와 소금으로 마무리한다."
+      ],
+      "tags": [
+        "간편식",
+        "가성비"
+      ],
+      "method": "egg_tomato",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_037",
+      "name": "김치볶음밥",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "kimchi",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥과 채소, 단백질 재료를 잘게 준비한다.",
+        "팬에 기름을 두르고 단백질과 채소를 볶는다.",
+        "밥을 넣고 덩어리를 풀며 볶는다.",
+        "간장 등 양념으로 간하고 달걀이나 파를 곁들인다."
+      ],
+      "tags": [
+        "남은 밥",
+        "가성비"
+      ],
+      "method": "fried_rice",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_038",
+      "name": "참치 대신 병아리콩 샌드위치",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "chickpea",
+          "quantity": 240,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "bread",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "yogurt",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mustard",
+          "quantity": 15,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lettuce",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cucumber",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        }
+      ],
+      "steps": [
+        "콩을 으깨 요거트와 머스터드로 섞는다.",
+        "빵에 소스를 바른다.",
+        "상추와 오이 등 채소를 올리고 덮는다."
+      ],
+      "tags": [
+        "간편식",
+        "채식"
+      ],
+      "method": "sandwich",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_039",
+      "name": "에그 토스트",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 8,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "bread",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "butter",
+          "quantity": 20,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "빵을 굽거나 팬에 살짝 굽는다.",
+        "달걀이나 사과 등 토핑 재료를 준비한다.",
+        "버터나 땅콩버터와 토핑을 올린다.",
+        "뜨거울 때 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "toast",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_040",
+      "name": "채소 또띠아 피자",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "tortilla",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "canned_tomato",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "mozzarella",
+          "quantity": 125,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "bell_pepper",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "mushroom",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "오븐을 200°C로 예열한다.",
+        "또띠아에 토마토 소스를 얇게 바른다.",
+        "채소와 모차렐라를 올린다.",
+        "치즈가 녹고 가장자리가 바삭해질 때까지 굽는다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "tortilla_pizza",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_041",
+      "name": "연어 레몬 오븐구이",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "salmon",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "parsley",
+          "quantity": 5,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "오븐을 200°C로 예열한다.",
+        "재료에 기름, 소금, 후추와 지정된 양념을 바른다.",
+        "오븐에서 재료의 크기에 맞게 익힌다. 고기·생선은 속까지 익었는지 확인한다.",
+        "레몬이나 허브를 곁들여 낸다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "roast",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_042",
+      "name": "연어 데리야키 덮밥",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "salmon",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "honey",
+          "quantity": 15,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "ginger",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "broccoli",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥을 준비한다.",
+        "생선을 한입 크기로 자르고 팬에서 익힌다.",
+        "간장, 꿀, 생강으로 만든 소스를 넣어 가볍게 졸인다.",
+        "밥과 채소 위에 올려 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "fish_rice",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_043",
+      "name": "흰살생선 감자 팬구이",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "white_fish",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "butter",
+          "quantity": 20,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "parsley",
+          "quantity": 5,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "생선의 물기를 닦고 소금과 후추로 간한다.",
+        "팬에 버터나 기름을 두른다.",
+        "생선을 앞뒤로 익히고 감자는 별도로 충분히 익힌다.",
+        "레몬과 파슬리를 곁들인다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "pan_fish",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_044",
+      "name": "새우 마늘 파스타",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "parsley",
+          "quantity": 5,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "파스타를 삶는다.",
+        "팬에 마늘을 기름으로 볶고 새우를 익힌다.",
+        "레몬즙과 면수를 조금 넣어 소스를 만든다.",
+        "파스타와 섞고 파슬리를 뿌린다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "shrimp_pasta",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_045",
+      "name": "새우 채소 볶음밥",
+      "cuisine": "아시아식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "peas",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥과 채소, 단백질 재료를 잘게 준비한다.",
+        "팬에 기름을 두르고 단백질과 채소를 볶는다.",
+        "밥을 넣고 덩어리를 풀며 볶는다.",
+        "간장 등 양념으로 간하고 달걀이나 파를 곁들인다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "fried_rice",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_046",
+      "name": "어묵 채소 볶음",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "fish_cake",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cabbage",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "soy_sauce",
+          "quantity": 30,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 비슷한 크기로 썬다.",
+        "팬을 충분히 달구고 고기나 두부 등 단백질을 먼저 익힌다.",
+        "단단한 채소부터 넣어 센 불에서 볶는다.",
+        "양념을 넣고 재료가 익을 때까지 볶는다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "stir_fry",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_047",
+      "name": "떡볶이",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "rice_cake",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "fish_cake",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "gochujang",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sugar",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "떡을 준비하고 어묵과 파를 썬다.",
+        "냄비에 육수, 고추장, 설탕을 넣고 끓인다.",
+        "떡과 어묵을 넣고 저으며 익힌다.",
+        "소스가 걸쭉해지면 파를 넣어 마무리한다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "tteokbokki",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_048",
+      "name": "만두 채소국",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "dumpling",
+          "quantity": 400,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "spring_onion",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "채소를 비슷한 크기로 썬다.",
+        "냄비에 양파를 볶고 나머지 재료를 넣는다.",
+        "육수를 부어 재료가 부드러워질 때까지 끓인다.",
+        "간을 맞추고 원하는 경우 일부를 으깨 농도를 조절한다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "soup",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_049",
+      "name": "콩나물 비빔밥",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "bean_sprout",
+          "quantity": 200,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "gochujang",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥을 준비한다.",
+        "콩나물과 당근을 각각 익히고 달걀을 부친다.",
+        "밥 위에 채소와 달걀을 올린다.",
+        "고추장과 참기름을 곁들여 비벼 먹는다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "bibimbap",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_050",
+      "name": "김밥풍 달걀말이 밥",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "rice",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "seaweed",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "sesame_oil",
+          "quantity": 10,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "밥을 짓거나 준비한다.",
+        "주재료와 채소를 익히고 양념한다.",
+        "밥 위에 재료를 보기 좋게 올린다.",
+        "필요하면 참기름, 파, 깨 등으로 마무리한다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "rice_bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_051",
+      "name": "양배추 달걀전",
+      "cuisine": "한국식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "cabbage",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "flour",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "carrot",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 잘게 썰거나 갈아 준비한다.",
+        "달걀과 밀가루 등 반죽 재료를 섞는다.",
+        "달군 팬에 기름을 두르고 반죽을 얇게 펼친다.",
+        "양면이 노릇하고 속까지 익도록 굽는다."
+      ],
+      "tags": [
+        "가성비"
+      ],
+      "method": "pancake",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_052",
+      "name": "브로콜리 치즈 수프",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "broccoli",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "milk",
+          "quantity": 300,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "cheese",
+          "quantity": 80,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "stock",
+          "quantity": 500,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "채소를 비슷한 크기로 썬다.",
+        "냄비에 양파를 볶고 나머지 재료를 넣는다.",
+        "육수를 부어 재료가 부드러워질 때까지 끓인다.",
+        "간을 맞추고 원하는 경우 일부를 으깨 농도를 조절한다."
+      ],
+      "tags": [
+        "가족식"
+      ],
+      "method": "soup",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_053",
+      "name": "소시지 감자 팬구이",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "sausage",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "potato",
+          "quantity": 500,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "onion",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "bell_pepper",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "감자와 채소를 한입 크기로 썬다.",
+        "팬에서 소시지를 먼저 굽는다.",
+        "감자와 채소를 넣고 뚜껑을 덮어 익힌다.",
+        "감자가 부드러워지면 간을 맞춘다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "pan_roast",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_054",
+      "name": "베이컨 완두콩 파스타",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "bacon",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "pasta",
+          "quantity": 300,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "peas",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cream",
+          "quantity": 200,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "garlic",
+          "quantity": 10,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "파스타를 삶고 면수를 조금 남긴다.",
+        "팬에 마늘과 주재료를 익힌다.",
+        "크림과 치즈를 넣고 약불에서 섞는다.",
+        "파스타를 넣어 농도를 맞추고 바로 낸다."
+      ],
+      "tags": [
+        "간편식"
+      ],
+      "method": "creamy_pasta",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_055",
+      "name": "퀴노아 채소 볼",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "difficulty": "보통",
+      "ingredients": [
+        {
+          "ingredientId": "quinoa",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "chickpea",
+          "quantity": 240,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cucumber",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "tomato",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "olive_oil",
+          "quantity": 20,
+          "unit": "ml",
+          "required": true
+        }
+      ],
+      "steps": [
+        "곡물을 포장지 안내에 따라 익힌다.",
+        "채소를 씻고 콩을 준비한다.",
+        "레몬과 올리브유 또는 요거트로 드레싱을 만든다.",
+        "그릇에 곡물, 채소, 콩을 담고 드레싱을 곁들인다."
+      ],
+      "tags": [
+        "채식"
+      ],
+      "method": "grain_bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_056",
+      "name": "쿠스쿠스 병아리콩 볼",
+      "cuisine": "유럽식",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "couscous",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "chickpea",
+          "quantity": 240,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "cucumber",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "tomato",
+          "quantity": 250,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "yogurt",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "lemon",
+          "quantity": 1,
+          "unit": "개",
+          "required": true
+        }
+      ],
+      "steps": [
+        "곡물을 포장지 안내에 따라 익힌다.",
+        "채소를 씻고 콩을 준비한다.",
+        "레몬과 올리브유 또는 요거트로 드레싱을 만든다.",
+        "그릇에 곡물, 채소, 콩을 담고 드레싱을 곁들인다."
+      ],
+      "tags": [
+        "간편식",
+        "채식"
+      ],
+      "method": "grain_bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_057",
+      "name": "오트밀 사과죽",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 8,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "oats",
+          "quantity": 120,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "milk",
+          "quantity": 300,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "apple",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "honey",
+          "quantity": 15,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "냄비에 오트밀과 우유를 넣는다.",
+        "약불에서 저으며 걸쭉해질 때까지 끓인다.",
+        "사과를 잘게 썰어 넣는다.",
+        "꿀을 취향에 따라 조금 넣어 낸다."
+      ],
+      "tags": [
+        "아침"
+      ],
+      "method": "porridge",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_058",
+      "name": "바나나 없는 사과 오트 팬케이크",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "oats",
+          "quantity": 120,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "egg",
+          "quantity": 3,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "milk",
+          "quantity": 300,
+          "unit": "ml",
+          "required": true
+        },
+        {
+          "ingredientId": "apple",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "flour",
+          "quantity": 100,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "재료를 잘게 썰거나 갈아 준비한다.",
+        "달걀과 밀가루 등 반죽 재료를 섞는다.",
+        "달군 팬에 기름을 두르고 반죽을 얇게 펼친다.",
+        "양면이 노릇하고 속까지 익도록 굽는다."
+      ],
+      "tags": [
+        "아침"
+      ],
+      "method": "pancake",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_059",
+      "name": "요거트 과일 볼",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "yogurt",
+          "quantity": 150,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "apple",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        },
+        {
+          "ingredientId": "oats",
+          "quantity": 120,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "honey",
+          "quantity": 15,
+          "unit": "g",
+          "required": true
+        }
+      ],
+      "steps": [
+        "요거트를 그릇에 담는다.",
+        "사과를 잘게 썰어 올린다.",
+        "오트밀과 꿀을 더한다.",
+        "바로 낸다."
+      ],
+      "tags": [
+        "아침",
+        "간편식"
+      ],
+      "method": "bowl",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    },
+    {
+      "id": "recipe_060",
+      "name": "땅콩버터 사과 토스트",
+      "cuisine": "혼합",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "ingredientId": "bread",
+          "quantity": 4,
+          "unit": "장",
+          "required": true
+        },
+        {
+          "ingredientId": "peanut_butter",
+          "quantity": 30,
+          "unit": "g",
+          "required": true
+        },
+        {
+          "ingredientId": "apple",
+          "quantity": 2,
+          "unit": "개",
+          "required": true
+        }
+      ],
+      "steps": [
+        "빵을 굽거나 팬에 살짝 굽는다.",
+        "달걀이나 사과 등 토핑 재료를 준비한다.",
+        "버터나 땅콩버터와 토핑을 올린다.",
+        "뜨거울 때 낸다."
+      ],
+      "tags": [
+        "아침",
+        "간편식"
+      ],
+      "method": "toast",
+      "notes": "재료의 크기와 화력에 따라 조리 시간은 달라질 수 있습니다. 고기·생선·달걀은 충분히 익혀 주세요."
+    }
+  ]
+}
